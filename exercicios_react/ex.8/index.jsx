@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Field from './field';
+import ClassComponent from './classComponent';
 
 ReactDOM.render(
-    <Field
-        label="Componente controlado"
-        initialValue="Placeholder"
+    <ClassComponent
+        label="Meu contador"
+        value={25}
     />,
     document.getElementById('app')
 );
